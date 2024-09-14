@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Monica's Portfolio</title>
+  
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="navigation">
+    <div class="logo">
+      <img src="/images/IMG_1834.jpg" alt="logo picture">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li> 
+        <li><a href="#services">Services</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <button>Sign In</button>
+      </ul>
+    </nav>
+  </section>
+  
+  <section class="banner" id="home">
+    <div class="intro-text">
+      <h1>Hello👋. I'm Monica
+      </h1>
+    </div>
+   <div class="welcome-message">
+    <p id="welcome-text"></p>
+    </div>
+  </section>
+  
+  <section class="about" id="about">
+    <div class="about-image">
+      <h1>About </h1>
+      <img src="/images/IMG_20230101_134927_909.jpg" alt="Monica's picture">
+    </div>
+    <div class="about-content">
+      <p>Hi, I'm Monica, a passionate web developer, fashion designer, and special needs educator. I have a deep love for combining creativity with technology, and I take pride in every project I work on. With my experience in multiple fields, I aim to bring unique perspectives to every challenge I face, whether it's designing beautiful clothing, building user-friendly websites, or nurturing special-needs students.</p>
+    </div>
+  </section>
+  
+  <section class="services">
+    <h1>Services</h1>
+    <ol>
+      <li>
+        <h3>Web Development</h3>
+        <img src="/images/1722367159137.jpg" alt="Team collaboration on web design">
+        <p>Providing custom websites and applications to suit your business or personal needs. From designing layouts to coding interactive features, I specialize in building fast, responsive, and user-friendly websites.</p>
+      </li>
+      <li>
+        <h3>Fashion Design</h3>
+        <p>Offering tailored fashion designs, focusing on unique, creative, and comfortable clothing. Whether you're looking for everyday wear or something for a special occasion, my designs are made to fit your style and comfort.</p>
+      </li>
+      <li>
+        <h3>Special Needs Education</h3>
+        <img src="/images/Special Needs.jpg" alt="Special needs children">
+        <p>Providing specialized education for children with unique learning needs. With experience in developing personalized learning plans and engaging activities, I strive to make learning accessible and enjoyable for every child.</p>
+      </li>
+      <li>
+        <h3>Consultation Services</h3>
+        <p>Offering one-on-one consultations to help you with your web development or fashion design needs. Whether you need advice on website structure, improving user experience, or creating a unique fashion line, I am here to guide you through the process.</p>
+      </li>
+      <li>
+        <h3>Workshop/Training</h3>
+        <img src="/images/IMG_20240815_172039_616.jpg" alt="Workshop participant learning sewing">
+        <p>Providing hands-on workshops and training sessions for individuals or small groups interested in web development, fashion design, or special needs education. These workshops are tailored to both beginners and advanced learners, with practical, real-world applications.</p>
+      </li>
+      <li>
+        <h3>Custom Orders</h3>
+        <p>Offering custom clothing designs tailored to your unique style and preferences. Whether it's for an event, work, or casual wear, I provide personalized fashion solutions designed to meet your exact needs.</p>
+        <img src="/images/1711018806536.jpg" alt="Customer trying out an outfit">
+      </li>
+    </ol>
+  </section>
+  
+  <section id="testimonials">
+    <h2>Testimonials</h2>
+    <div class="testimonials-container">
+      <div class="testimonial-item">
+        <img src="/images/Markerter.jpg" alt="Sally Wanjiku" style="border-radius: 50%;width:150px;height:150px;">
+        <p>Sally Wanjiku - Marketing Manager</p>
+        <p>"Working with Monica was a fantastic experience. Her expertise in web development and her creative approach transformed our website into a modern, user-friendly platform. Her attention to detail exceeded our expectations. Highly recommended!"</p>
+      </div>
+      <div class="testimonial-item">
+        <img src="/images/Disigns.jpg" alt="Daizy Anyango" style="border-radius: 50%;width:150px; height:150px;">
+        <p>Daizy Anyango - Boutique Owner</p>
+        <p>"Monica's fashion designs are truly exceptional. She took our vision and turned it into stunning, high-quality garments that perfectly capture our brand. The process was smooth and enjoyable, and the final results were beyond our expectations."</p>
+      </div>
+      <div class="testimonial-item">
+        <img src="/images/Teacher.jpg" alt="Ben Simiyu" style="border-radius:50%; height:150px;width:150px;" >
+        <p>Ben Simiyu - Principal Mitoto School for the Blind</p>
+        <p>"As a special needs teacher, I found Monica's educational resources and strategies incredibly helpful. Her thoughtful and customized approach made a significant difference in my classroom, and the students benefited greatly from her expertise."</p>
+      </div>
+    </div>
+  </section>
+  
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form action= "https://formsubmit.co/el/confirm/c3c2afa8007d83646accd9c25131fb43"  method="POST">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" placeholder="Your Email" required>
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Your Message" rows="4" required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+  
+  <footer>
+    <p>&copy; 2024 Monica. All rights reserved.</p>
+    <div class="social-media">
+      <a href="https://twitter.com/yourprofile" target="_blank">Twitter</a>
+      <a href="https://linkedin.com/in/yourprofile" target="_blank">LinkedIn</a>
+      <a href="https://github.com/yourprofile" target="_blank">GitHub</a>
+    </div>
+  </footer>
+
+  <script src="main.js"></script>
+</body>
+</html>

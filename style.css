@@ -1,0 +1,269 @@
+/* General styles using the universal selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3 {
+  color: #4CAF50;
+}
+
+a {
+  text-decoration: none;
+  color: #4CAF50;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Navigation */
+.navigation {
+  background: #333;
+  color: #fff;
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0; 
+}
+
+.navigation .logo img {
+  height: 50px;
+  width:50px;
+  border-radius:50%;
+}
+
+.navigation nav ul {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.navigation nav ul li {
+  display: inline;
+}
+
+.navigation nav ul li a {
+  color: white;
+  padding: 8px 16px;
+  border-radius: 5px;
+}
+
+.navigation nav ul li a:hover {
+  background: #4CAF50;
+}
+
+.navigation button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.navigation button:hover {
+  background-color: #45a049;
+}
+
+/* Banner */
+.banner {
+  background: url('/images/IMG_3406.jpg') no-repeat center center/cover;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0; /* Remove any margin */
+}
+
+.intro-text {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 10px 20px;
+  color: white;
+  font-weight:800;
+}
+
+.intro-text h1 {
+  font-size: 2rem;
+}
+
+/* About Section */
+.about {
+  padding: 50px;
+  text-align: center;
+}
+
+.about img {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.about p {
+  margin-top: 20px;
+  font-size: 1.1rem;
+  color: #555;
+}
+
+/* Services Section */
+.services {
+  padding: 50px;
+}
+
+.services h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.services ol {
+  padding-left: 0;
+}
+
+.services ol li {
+  margin-bottom: 40px;
+}
+
+.services ol li img {
+  width: 30%;
+  height: auto;
+  margin-top: 10px;
+}
+
+.services ol li h3 {
+  color: #4CAF50;
+}
+
+/* Testimonials Section */
+#testimonials {
+  padding: 50px;
+  background-color: #fff;
+}
+
+#testimonials h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2em;
+}
+
+.testimonials-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 0 50px;
+}
+
+.testimonial-item {
+  text-align: center;
+  flex: 1;
+}#42445A
+
+.testimonial-item img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.testimonial-item p {
+  margin-bottom: 10px;
+  font-size: 16px;
+  color: #333;
+}
+
+.testimonial-item p:last-child {
+  font-style: italic;
+  color: #666;
+}
+
+/* Contact Section */
+#contact {
+  padding: 50px;
+  background: #f4f4f4;
+}
+
+#contact h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+#contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact label {
+  margin: 10px 0 5px;
+  font-size: 1.1rem;
+}
+
+#contact input, #contact textarea {
+  width: 80%;
+  max-width: 600px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+#contact button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+#contact button:hover {
+  background-color: #45a049;
+}
+
+/* Footer */
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  margin: 0;
+  color:white;
+}
+
+footer .social-media {
+  margin-top: 10px;
+}
+
+footer .social-media a {
+  margin: 0 10px;
+  color: #fff;
+}
+
+footer .social-media a:hover {
+  color: #4CAF50;
+}
+
+/* Dynamic Skill Text */
+#dynamic-skill {
+  color: #4CAF50;
+  font-weight: bold;
+}
